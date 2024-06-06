@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dashboardCardSTYLE.css">
+    <link rel="stylesheet" href="dashboardSTYLE.css">
+    
+   <style>
+        .card {
+            border-radius: 0;
+            transition: transform 0.2s;
+            width: 300px; /* Adjust width here */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .wedding, .musical, .birthday, .others {
+            min-height: 200px; /* Adjust height here */
+        }
+
+        .card-header {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2rem; /* Reduce font size */
+        }
+
+        .card-body p {
+            font-size: 1rem; /* Reduce font size */
+            text-align: center;
+        }
+
+        .dashboard-link {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Dashboard</h1>
+        
+        <div class="row">
+            <!-- First Row -->
+            <div class="col-sm-6">
+                <!-- Wedding Dashboard -->
+                <a href="wedding_dashboard.php" class="dashboard-link">
+                    <div class="card mb-4 wedding">
+                        <div class="card-header">Wedding Dashboard</div>
+                        <div class="card-body">
+                            <p>Click here to explore the wedding events</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Musical Evening Dashboard -->
+                <a href="musical_dashboard.php" class="dashboard-link">
+                    <div class="card mb-4 musical">
+                        <div class="card-header">Musical Evening Dashboard</div>
+                        <div class="card-body">
+                            <p>Click here to explore the musical events</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Second Row -->
+            <div class="col-sm-6">
+                <!-- Birthday Dashboard -->
+                <a href="birthday_dashboard.php" class="dashboard-link">
+                    <div class="card mb-4 birthday">
+                        <div class="card-header">Birthday Dashboard</div>
+                        <div class="card-body">
+                            <p>Click here to explore the birthday events</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Others Dashboard -->
+                <a href="others_dashboard.php" class="dashboard-link">
+                    <div class="card mb-4 others">
+                        <div class="card-header">Others Dashboard</div>
+                        <div class="card-body">
+                            <p>Click here to explore other events</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
