@@ -1,0 +1,58 @@
+/* Custom CSS */
+
+/* Navbar */
+.navbar {
+    background-color: #17a2b8;
+}
+
+.navbar-brand {
+    color: #31d974;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Container */
+.container {
+    padding-top: 20px;
+}
+
+/* Cards */
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #343a40;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Text */
+h1, h2, h3, h4, h5, h6 {
+    color: #8d17b1; /* Heading text color */
+}
+
+p {
+    color: #6c757d; /* Paragraph text color */
+}

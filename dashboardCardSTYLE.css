@@ -1,8 +1,8 @@
 .card {
     border-radius: 0;
     transition: transform 0.2s;
-    width: 300px; /* Adjust width here */
-    background-color: #FFD700; /* Default color */
+    width: 300px; 
+    background-color: #FFD700; 
 }
 
 .card:hover {
@@ -10,29 +10,29 @@
 }
 
 .wedding {
-    background-color: #5a3082; /* Gold */
+    background-color: #5a3082; 
 }
 
 .musical {
-    background-color: #2c3990; /* Hot pink */
+    background-color: #2c3990;
 }
 
 .birthday {
-    background-color: #87CEEB; /* Sky blue */
+    background-color: #87CEEB; 
 }
 
 .others {
-    background-color: #20B2AA; /* Light sea green */
+    background-color: #20B2AA; 
 }
 
 .card-header {
     text-align: center;
     font-weight: bold;
-    font-size: 1.2rem; /* Reduce font size */
+    font-size: 1.2rem; 
 }
 
 .card-body p {
-    font-size: 1rem; /* Reduce font size */
+    font-size: 1rem; 
     text-align: center;
 }
 
