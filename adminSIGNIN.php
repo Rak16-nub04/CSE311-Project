@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $admin = mysqli_fetch_assoc($result);
         $_SESSION['username'] = $admin['username'];
         $_SESSION['is_admin'] = true;
-        header("Location: adminPROFILE.php");
+        header("Location: admin.php");
         exit();
     } else {
         $error = "Invalid username or password.";
